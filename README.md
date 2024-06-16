@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# NY Times Most Popular Articles
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that fetches and displays the most popular articles from the NY Times Most Popular Articles API. The app shows a list of articles and displays details when an article is clicked.
+
+## Tech Stack
+
+- React
+- TypeScript
+- Axios
+- React Router
+- Styled-components
+- Jest
+- React Testing Library
+- Cypress
+- ESLint
+- Prettier
 
 ## Available Scripts
 

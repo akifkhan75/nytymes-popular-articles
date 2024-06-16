@@ -28,7 +28,7 @@ const ArticleDetailPage: React.FC = () => {
     <ArticlesWrapper>
       <ArticleDetailsWrapper>
 
-        <img src={articleImage} alt="" />
+        <img src={articleImage} alt="Article Image." />
 
         <div>
           <ArticleHeading>{article.title}</ArticleHeading>
