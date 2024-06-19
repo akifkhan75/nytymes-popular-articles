@@ -18,6 +18,10 @@ export const ArticlesWrapper = styled.div`
     gap: 20px;
     max-width: 1280px;
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+        flex-direction: column
+    }
 `;
 
 export const ArticleContent = styled(Link)`
@@ -59,5 +63,11 @@ export const ArticleDetailsWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 30px
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `
